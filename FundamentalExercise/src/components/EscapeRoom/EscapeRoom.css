@@ -1,0 +1,110 @@
+#escape__main {
+    height: 2100px;
+    background-color: var(--secondary-text-color);
+}
+
+#escape__main #vector {
+    position: absolute;
+    top: 910px;
+    z-index: 1;
+}
+
+#escape__gogh {
+    width: 1440px;
+}
+
+#gogh__text {
+    width: 800px;
+}
+
+.big-text {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 120%;
+    color: var(--main-text-color);
+}
+
+.normal-text {
+    color: #5C5C5C;
+    width: 633.72px;
+    height: 120px;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.reservation-button {
+    color: var(--secondary-text-color);
+    width: 250px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: var(--green-button-color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.party-div {
+    width: 150px;
+    height: 150px;
+}
+
+.party-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--main-text-color);
+}
+
+.party-small-text {
+    color: var(--main-text-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+#text {
+    color: var(--main-text-color);
+}
+
+.small-text-video {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #4C40F7;
+}
+
+.big-text-video {
+    display: inline-block;
+    width: 800px;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 80px;
+    margin-bottom: 0;
+}
+
+#video {
+    width: 880px;
+    overflow: hidden;
+}
+
+#video-image {
+    position: absolute;
+    margin-top: 250px;
+    right: 300px;
+    width: 1300px;
+    height: 650px;
+    z-index: 2;
+}
+
+.circle {
+    position: absolute;
+    overflow: hidden;
+    z-index: 0;
+}

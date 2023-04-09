@@ -1,0 +1,168 @@
+#main__section {
+    position: relative;
+    background-color: var(--main-hero-color);
+    color: var(--main-text-color);
+    height: 1080px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#main__section img {
+    position: absolute;
+    width: 1102.35px;
+    height: 884.17px;
+    left: 830px;
+    top: 90px;
+    z-index: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#main__section #text__section #extra-bold {
+    color: var(--main-text-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    width: 617px;
+    height: 243px;
+    line-height: 84px;
+    z-index: 1;
+}
+
+#main__section #text__section #normal-text {
+    color: var(--main-text-color);
+    font-size: 18px;
+    font-weight: 400;
+    width: 617px;
+    height: 89px;
+    line-height: 30px;
+}
+
+#main__section #text__section button {
+    width: 250px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: var(--green-button-color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.orange-text {
+    color: #FF5E00;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 140%;
+}
+
+.purple-text {
+    color: #BF6DFF;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 140%;
+}
+
+.green-text {
+    color: #2BB673;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 140%;
+}
+
+.numbers-text {
+    color: #5C5C5C;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.reservation-button {
+    color: var(--secondary-text-color);
+}
+
+.yellow-circle {
+    position: absolute;
+    left: 220px;
+    top: 180px;
+    height: 60px;
+    z-index: 0;
+    width: 60px;
+    background-color: #FFC517;
+    border-radius: 50%;
+}
+
+.blue-rectangle {
+    position: absolute;
+    left: 137px;
+    top: 500px;
+	width: 13px;
+	height: 60px;
+    transform: rotate(-60deg);
+	background: #2F50FF;
+}
+
+.yellow-triangle {
+    position: absolute;
+    left: 800px;
+    top: 700px;
+    width: 0;
+	height: 0;
+	border-left: 26px solid transparent;
+	border-right: 26px solid transparent;
+	border-bottom: 55px solid #FFC517;
+}
+
+.orange-triangle {
+    position: absolute;
+    left: 1200px;
+    top: 980px;
+    width: 0;
+	height: 0;
+	border-left: 26px solid transparent;
+	border-right: 26px solid transparent;
+	border-bottom: 55px solid #FF5E00;
+    transform: rotate(180deg);
+}
+
+.purple-circle {
+    position: absolute;
+    left: 1050px;
+    top: 260px;
+    height: 39px;
+    width: 39px;
+    z-index: 0;
+    background-color: #BF6DFF;
+    border-radius: 50%;
+}
+
+.purple-circle-right {
+    position: absolute;
+    left: 1770px;
+    top: 870px;
+    height: 39px;
+    width: 39px;
+    z-index: 0;
+    background-color: #BF6DFF;
+    border-radius: 50%;
+}
+
+.small-yellow-circle {
+    position: absolute;
+    left: 940px;
+    top: 120px;
+    height: 39px;
+    width: 39px;
+    z-index: 0;
+    background-color: #FFC517;
+    border-radius: 50%;
+}
+
+.green-circle {
+    position: absolute;
+    left: 1660px;
+    top: 50px;
+    height: 39px;
+    width: 39px;
+    z-index: 0;
+    background-color: #ABB64E;
+    border-radius: 50%;
+}

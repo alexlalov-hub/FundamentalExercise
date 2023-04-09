@@ -1,0 +1,49 @@
+#program__section {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    z-index: 3;
+    background-color: var(--main-hero-color);
+    color: var(--main-text-color);
+}
+
+.big-text {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 72px;
+    color: var(--main-text-color);
+}
+
+.card {
+    width: 404.73px;
+    height: 244.5px;
+}
+
+.normal-text {
+    display: inline-block;
+    width: 640px;
+    height: 94px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #6B6B6B;
+}
+
+.big-text-table {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.small-text-table {
+    text-align: center;
+    width: 404px;
+    height: 48px;
+    font-family: 'Hind', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
