@@ -3,6 +3,7 @@ import EscapeRoom from './components/EscapeRoom/EscapeRoom'
 import Hero from './components/HeroSection/Hero'
 import NavBar from './components/NavBar/NavBar'
 import Program from './components/Program/Program'
+import Questions from './components/Questions/Questions'
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
 			<Hero />
 			<EscapeRoom />
 			<Program />
+			<Questions />
+			
 		</>
 	)
 }

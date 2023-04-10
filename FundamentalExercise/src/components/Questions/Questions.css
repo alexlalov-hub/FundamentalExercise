@@ -1,0 +1,60 @@
+#section__gallery {
+  background-color: var(--secondary-text-color);
+}
+
+.normal-text-questions {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #4c40f7;
+}
+
+.big-text-questions {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 56px;
+}
+
+.accordion-item {
+  padding: 12px;
+  width: 1120px;
+}
+
+.accordion-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  align-self: left;
+}
+
+.answer {
+  width: inherit;
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #6b6b6b;
+}
+
+.questions-text {
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #6b6b6b;
+}
+
+.questions-text-big{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111029;
+}
