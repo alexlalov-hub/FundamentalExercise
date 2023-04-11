@@ -15,7 +15,7 @@ export class NavBar extends Component {
 					<li>контакти</li>	
 					<li></li>
 				</ul>
-				<button className='border border-white rounded-3xl px-10 bg-transparent'>
+				<button className='border-solid border rounded-3xl px-10' style={{background: "transparent", borderColor : "white"}}>
 					резервирай сега!
 				</button>
 			</nav>

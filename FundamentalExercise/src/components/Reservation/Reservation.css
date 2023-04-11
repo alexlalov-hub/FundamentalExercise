@@ -1,0 +1,73 @@
+#section__reservation {
+  background-color: var(--main-hero-color);
+}
+
+.reservation-big-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 72px;
+}
+
+.reservation-small-text {
+  font-family: "Hind";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  color: rgba(107, 107, 107, 1);
+}
+
+.reservation-table {
+  width: 1646px;
+  background-color: white;
+}
+
+.resercation-table-big-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+th {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+td {
+  border-top: 1px solid rgba(76, 64, 247, 1);
+  border-bottom: 1px solid rgba(76, 64, 247, 1);
+  border-right: 1px solid #dbdbdb;
+  width: 224px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 16px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.reservation-reserved-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 2px 20px;
+  background-color: rgba(255, 94, 0, 0.5);
+}
+
+
+.reservation-hour-text {
+    padding: 2px 20px;
+    background-color: rgba(212, 248, 211, 1);
+    margin: 0;
+}

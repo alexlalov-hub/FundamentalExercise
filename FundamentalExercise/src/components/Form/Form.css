@@ -1,0 +1,76 @@
+#section__form {
+  background-color: var(--main-hero-color);
+}
+
+label {
+  font-family: "Hind", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(17, 16, 41, 1);
+  margin-bottom: 18px;
+}
+
+input[type="text"] {
+  font-family: "Hind", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #b9b9b9;
+  border: none;
+  border-bottom: 1px solid rgba(216, 216, 216, 1);
+  background-color: transparent;
+  width: 377px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("../../assets/select-arrow.svg");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  margin-right: 2rem;
+  padding: 1rem;
+  padding-right: 2rem;
+  font-family: "Hind", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #b9b9b9;
+  width: 377px;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid rgba(168, 170, 190, 1);
+  accent-color: blue;
+  width: 20px;
+  height: 20px;
+}
+
+input[type="checkbox"] + label {
+  font-family: "Hind", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #b9b9b9;
+}
+
+.form-small-text {
+  font-family: "Hind", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  color: #b9b9b9;
+  text-align: center;
+}
